@@ -1,0 +1,6 @@
+Untuk run debug di localhost gunakan perintah ini:
+flutter run -d chrome --web-hostname localhost --web-port 4848
+
+WHY ???
+Agar bisa menjalankan di localhost maka URI di OAuth cliennya sudah ditambahkan localhost:4848
+di sisi lain flutter selalu menggunakan port random ketika melakukan run di chrome.
